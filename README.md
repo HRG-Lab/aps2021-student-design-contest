@@ -1,6 +1,6 @@
 # 2021 IEEE APS/URSI Student Design Contest
 
-This subdirectory contains the Huff Research Group's submission to the [2021 APS Student Design Contest](https://www.ieeeaps.org/education/student-design-contest). The goal of this project is to demonstrate a software-defined radio (SDR) phased array architecture that performs direction of arrival (DoA) and beamforming (BF). The system will be composed of the KerberosSDR, a 4-channel coherent radio, and use GNURadio to do the array signal processing in real-time. The focus will be building an educational toolkit that can be utilized to teach beamforming and DoA, comparing analog and digital techniques as well as hybrid architectures.
+This repository contains the Huff Research Group's submission to the [2021 APS Student Design Contest](https://www.ieeeaps.org/education/student-design-contest). The goal of this project is to demonstrate a software-defined radio (SDR) phased array architecture that performs direction of arrival (DoA) and beamforming (BF). The system will be composed of the KerberosSDR, a 4-channel coherent radio, and use GNURadio to do the array signal processing in real-time. The focus will be building an educational toolkit that can be utilized to teach beamforming and DoA, comparing analog and digital techniques as well as hybrid architectures.
 
 ## Motivation and Application
 
