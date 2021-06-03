@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/gaylybailey/Documents/HRG/sdr-df-bf/aps2021-sdc/aps2021-student-design-contest/hardware/phase_shifter/Phase Shifter Module/Phase Shifter Module.sch</source>
+    <date>Thu 03 Jun 2021 03:17:47 PM EDT</date>
+    <tool>Eeschema 5.1.6+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Phase Shifter Module</title>
+        <company>Penn State - Huff Research Group</company>
+        <rev>1.0.0</rev>
+        <date>2021-05-10</date>
+        <source>Phase Shifter Module.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>JSPHS-661+</value>
+      <footprint>SamacSys_Parts:JSPHS661</footprint>
+      <datasheet>https://www.minicircuits.com/pdfs/JSPHS-661+.pdf</datasheet>
+      <fields>
+        <field name="Description">Narrow Band Phase Shifter, 50Ohm, 400 - 660 MHz</field>
+        <field name="Height">6</field>
+        <field name="Manufacturer_Name">Mini-Circuits</field>
+        <field name="Manufacturer_Part_Number">JSPHS-661+</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JSPHS-661+" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC9612E</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>NCP1117ST50T3G</value>
+      <footprint>NCP1117ST50T3G:SOT230P700X180-4N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">NCP1117ST50T3G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ncp1117st50t3g/on-semiconductor</field>
+        <field name="Description">ON SEMICONDUCTOR - NCP1117ST50T3G - LDO, REG, 20VIN, 1A, 5V, 1%, SOT223-3</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">NCP1117ST50T3G</field>
+        <field name="Mouser Part Number">863-NCP1117ST50T3G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCP1117ST50T3G?qs=Gev%252BmEvV0ib6dijy6U0dhQ%3D%3D</field>
+      </fields>
+      <libsource lib="NCP1117ST50T3G" part="NCP1117ST50T3G" description="ON SEMICONDUCTOR - NCP1117ST50T3G - LDO, REG, 20VIN, 1A, 5V, 1%, SOT223-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601543AA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="" part="CP1_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60159CC7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="" part="CP1_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6015B907</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Amphenol Edge Connector</value>
+      <footprint>Amphenol Edge:Amphenol_132255_Edge</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6016A195</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Barrel_Jack</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017C5C3</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601802C2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60181058</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>JSPHS-661+</value>
+      <footprint>SamacSys_Parts:JSPHS661</footprint>
+      <datasheet>https://www.minicircuits.com/pdfs/JSPHS-661+.pdf</datasheet>
+      <fields>
+        <field name="Description">Narrow Band Phase Shifter, 50Ohm, 400 - 660 MHz</field>
+        <field name="Height">6</field>
+        <field name="Manufacturer_Name">Mini-Circuits</field>
+        <field name="Manufacturer_Part_Number">JSPHS-661+</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JSPHS-661+" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B4F51</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Amphenol Edge Connector</value>
+      <footprint>Amphenol Edge:Amphenol_132255_Edge</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601AC82E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606CD92C</tstamp>
+    </comp>
+    <comp ref="V_DAC1">
+      <value>Conn_01x01</value>
+      <footprint>Phase Shifter Module:TestPad_Medium</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60970B5C</tstamp>
+    </comp>
+    <comp ref="V_Bias1">
+      <value>Conn_01x01</value>
+      <footprint>Phase Shifter Module:TestPad_Medium</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6097272E</tstamp>
+    </comp>
+    <comp ref="GND1">
+      <value>Conn_01x01</value>
+      <footprint>Phase Shifter Module:TestPad_Medium</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60976621</tstamp>
+    </comp>
+    <comp ref="5V1">
+      <value>Conn_01x01</value>
+      <footprint>Phase Shifter Module:TestPad_Medium</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60976627</tstamp>
+    </comp>
+    <comp ref="12V1">
+      <value>Conn_01x01</value>
+      <footprint>Phase Shifter Module:TestPad_Medium</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6097662D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>PWR_LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089E3C9</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608A133D</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>LM741CN_NOPB</value>
+      <footprint>Package_SO:SOP-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Description">LM741 Operational Amplifier 1MHz DIP8 Texas Instruments LM741CN/NOPB Op Amp, 1MHz, 8-Pin MDIP</field>
+        <field name="Height">5.08</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM741CN/NOPB</field>
+        <field name="Mouser Part Number">926-LM741CN/NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM741CN-NOPB?qs=QbsRYf82W3Gt6%252BDX6%252BuAjw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LMC6081IMX_NOPB" description="Precision CMOS Single Operational Amplifier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608AEA7A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SamacSys_Parts" part="ERA-6AED1402V" description="Thin Film Resistors - SMD 0805 14Kohms 25ppm 0.5% AEC-Q200"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609169EB</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60938805</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>MCP4725A2T-E_CH</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf</datasheet>
+      <fields>
+        <field name="Description">Microchip MCP4725A2T-E/CH, 12 bit Serial DAC, 3.4Msps, 6-Pin SOT-23</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP4725A2T-E/CH</field>
+        <field name="Mouser Part Number">579-MCP4725A2T-E/CH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4725A2T-E-CH?qs=hH%252BOa0VZEiABOw9BMlFjfA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MCP4725A2T-E_CH" description="Microchip MCP4725A2T-E/CH, 12 bit Serial DAC, 3.4Msps, 6-Pin SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6064401B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x05</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-5_1x05_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x05" description="Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609D35EE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Phase-Shifter-Module-rescue_CP1_Small-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Phase-Shifter-Module-rescue_CP1_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x05">
+      <description>Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NCP1117ST50T3G" part="NCP1117ST50T3G">
+      <description>ON SEMICONDUCTOR - NCP1117ST50T3G - LDO, REG, 20VIN, 1A, 5V, 1%, SOT223-3</description>
+      <docs>http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">NCP1117ST50T3G</field>
+        <field name="Footprint">SOT230P700X180-4N</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF</field>
+        <field name="Description">ON SEMICONDUCTOR - NCP1117ST50T3G - LDO, REG, 20VIN, 1A, 5V, 1%, SOT223-3</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">NCP1117ST50T3G</field>
+        <field name="Mouser Part Number">863-NCP1117ST50T3G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCP1117ST50T3G?qs=Gev%252BmEvV0ib6dijy6U0dhQ%3D%3D</field>
+        <field name="Arrow Part Number">NCP1117ST50T3G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ncp1117st50t3g/on-semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJUST/GROUND" type="passive"/>
+        <pin num="2" name="OUTPUT_1" type="passive"/>
+        <pin num="3" name="INPUT" type="passive"/>
+        <pin num="4" name="OUTPUT_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ERA-6AED1402V">
+      <description>Thin Film Resistors - SMD 0805 14Kohms 25ppm 0.5% AEC-Q200</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERA-6AED1402V</field>
+        <field name="Footprint">RESC2012X60N</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</field>
+        <field name="Description">Thin Film Resistors - SMD 0805 14Kohms 25ppm 0.5% AEC-Q200</field>
+        <field name="Height">0.6</field>
+        <field name="Mouser Part Number">667-ERA-6AED1402V</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-6AED1402V?qs=MNPzkKEzRtS3s9bTI0KGOw%3D%3D</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERA-6AED1402V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="JSPHS-661+">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">JSPHS-661+</field>
+        <field name="Footprint">JSPHS661</field>
+        <field name="Datasheet">https://www.minicircuits.com/pdfs/JSPHS-661+.pdf</field>
+        <field name="Description">Narrow Band Phase Shifter, 50Ohm, 400 - 660 MHz</field>
+        <field name="Height">6</field>
+        <field name="Manufacturer_Name">Mini-Circuits</field>
+        <field name="Manufacturer_Part_Number">JSPHS-661+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="2" name="GND_1" type="passive"/>
+        <pin num="3" name="GND_2" type="passive"/>
+        <pin num="4" name="BIAS_1" type="passive"/>
+        <pin num="5" name="GND_3" type="passive"/>
+        <pin num="6" name="BIAS_2" type="passive"/>
+        <pin num="7" name="OUT" type="passive"/>
+        <pin num="8" name="GND_4" type="passive"/>
+        <pin num="9" name="GND_5" type="passive"/>
+        <pin num="10" name="GND_6" type="passive"/>
+        <pin num="11" name="GND_7" type="passive"/>
+        <pin num="12" name="GND_8" type="passive"/>
+        <pin num="13" name="GND_9" type="passive"/>
+        <pin num="14" name="GND_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LMC6081IMX_NOPB">
+      <description>Precision CMOS Single Operational Amplifier</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lmc6081.pdf?ts=1620626007476&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLMC6081IMX%252FNOPB</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LMC6081IMX_NOPB</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmc6081.pdf?ts=1620626007476&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLMC6081IMX%252FNOPB</field>
+        <field name="Description">Precision CMOS Single Operational Amplifier</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">926-LMC6081IMX/NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMC6081IMX-NOPB/?qs=QbsRYf82W3GIO6MWhnXLLg%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LMC6081IMX/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC_1" type="passive"/>
+        <pin num="2" name="INVERTING_INPUT" type="passive"/>
+        <pin num="3" name="NON-INVERTING_INPUT" type="passive"/>
+        <pin num="4" name="V-" type="passive"/>
+        <pin num="5" name="NC_2" type="passive"/>
+        <pin num="6" name="OUTPUT" type="passive"/>
+        <pin num="7" name="V+" type="passive"/>
+        <pin num="8" name="NC_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MCP4725A2T-E_CH">
+      <description>Microchip MCP4725A2T-E/CH, 12 bit Serial DAC, 3.4Msps, 6-Pin SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP4725A2T-E_CH</field>
+        <field name="Footprint">SOT95P270X145-6N</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf</field>
+        <field name="Description">Microchip MCP4725A2T-E/CH, 12 bit Serial DAC, 3.4Msps, 6-Pin SOT-23</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">579-MCP4725A2T-E/CH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4725A2T-E-CH?qs=hH%252BOa0VZEiABOw9BMlFjfA%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP4725A2T-E/CH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="VSS" type="passive"/>
+        <pin num="3" name="VDD" type="passive"/>
+        <pin num="4" name="SDA" type="passive"/>
+        <pin num="5" name="SCL" type="passive"/>
+        <pin num="6" name="A0" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="NCP1117ST50T3G">
+      <uri>/home/gaylybailey/Documents/HRG/sdr-df-bf/aps2021-sdc/aps2021-student-design-contest/hardware/phase_shifter/Phase Shifter Module/Parts - Libraries/KiCad/NCP1117ST50T3G.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>/home/gaylybailey/Documents/HRG/sdr-df-bf/aps2021-sdc/aps2021-student-design-contest/hardware/phase_shifter/Phase Shifter Module/Parts - Libraries/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="5V">
+      <node ref="IC1" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="5V1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="2" name="V_Bias">
+      <node ref="U1" pin="6"/>
+      <node ref="V_Bias1" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="4"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="3" name="V_DAC">
+      <node ref="IC1" pin="1"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="V_DAC1" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="IC2" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="12"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="11"/>
+      <node ref="GND1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="5" name="A0">
+      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="7" name="SDA">
+      <node ref="R3" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="8" name="SCL">
+      <node ref="R4" pin="1"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(IC3-Pad5)">
+      <node ref="IC3" pin="5"/>
+    </net>
+    <net code="11" name="12V">
+      <node ref="IC3" pin="7"/>
+      <node ref="J4" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="12V1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(IC3-Pad8)">
+      <node ref="IC3" pin="8"/>
+    </net>
+    <net code="13" name="Net-(IC3-Pad2)">
+      <node ref="IC3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="15" name="Signal_In">
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="16" name="Signal_Out">
+      <node ref="J3" pin="1"/>
+      <node ref="U2" pin="7"/>
+    </net>
+  </nets>
+</export>

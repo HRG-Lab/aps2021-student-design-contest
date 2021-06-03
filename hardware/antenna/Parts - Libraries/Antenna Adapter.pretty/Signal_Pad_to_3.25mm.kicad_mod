@@ -1,0 +1,17 @@
+(module Signal_Pad_to_3.25mm (layer F.Cu) (tedit 0)
+  (attr virtual)
+  (fp_text reference uwT***** (at 2 -2.35) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Signal_Pad_to_3.25mm (at 2 2.85) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 4.5 0) (size 2 3.25) (layers F.Cu))
+  (pad 1 smd custom (at 0 0) (size 1 1.5) (layers F.Cu)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.75) (xy 0.5 -0.75) (xy 3.5 -1.625) (xy 5.5 -1.625) (xy 5.5 1.625)
+         (xy 3.5 1.625) (xy 0.5 0.75) (xy -0.5 0.75)) (width 0))
+    ))
+)

@@ -1,0 +1,8 @@
+"Source:","/home/gaylybailey/Documents/HRG/sdr-df-bf/aps2021-sdc/aps2021-student-design-contest/hardware/antenna/antenna.sch"
+"Date:","Thu 03 Jun 2021 05:16:01 PM EDT"
+"Tool:","Eeschema 5.1.6+dfsg1-1"
+"Component Count:","3"
+"Ref","Value","Footprint","Datasheet","Manufacturer","Vendor"
+"J1","Conn_01x01","Antenna_Clamp_Adapter:Wire_Clamp","~","",""
+"J2","Conn_01x01","Antenna_Clamp_Adapter:Wire_Clamp","~","",""
+"J3","Conn_01x02","Antenna_Clamp_Adapter:Amphenol_132255_Edge","~","",""

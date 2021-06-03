@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TMK212BC6106KG-T
+D Status	Mass Production (Preferred) Capacitance	10 uF +/- 10 % Case Size (EIA/JIS)	0805/2012 Rated Voltage	25 V tan (max)	10 % Temperature Characteristic (EIA)	X6S Operating Temp. Range (EIA)	-55 to +105  High Temperature Loading (% Rated Voltage)	150 % Insulation Resistance (min)	100 MuF Dimension L	2.0 +0.20/-0.00 mm Dimension W	1.25 +0.20/-0.00 mm Dimension T	1.25 +0.20/-0.00 mm Dimension e	0.50 +/-0.25 mm RoHS Compliance (10 subst.)	Yes REACH Compliance (205 subst.)	Yes IEC62474 (Ver. D19
+K
+F https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=LMK063BBJ474MPLF&fileType=CA
+$ENDCMP
+#
+$CMP MCP4725A2T-E_CH
+D Microchip MCP4725A2T-E/CH, 12 bit Serial DAC, 3.4Msps, 6-Pin SOT-23
+K
+F http://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf
+$ENDCMP
+#
+$CMP ERA-6AED1402V
+D Thin Film Resistors - SMD 0805 14Kohms 25ppm 0.5% AEC-Q200
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP LM741CN_NOPB
+D LM741 Operational Amplifier 1MHz DIP8 Texas Instruments LM741CN/NOPB Op Amp, 1MHz, 8-Pin MDIP
+K
+F 
+$ENDCMP
+#
+$CMP LMC6081IMX_NOPB
+D Precision CMOS Single Operational Amplifier
+K
+F https://www.ti.com/lit/ds/symlink/lmc6081.pdf?ts=1620626007476&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLMC6081IMX%252FNOPB
+$ENDCMP
+#
+#End Doc Library

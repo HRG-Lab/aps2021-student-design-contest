@@ -1,0 +1,265 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AD5175BRMZ-10
+#
+DEF AD5175BRMZ-10 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "AD5175BRMZ-10" 1250 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 1250 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/AD5175BRMZ-10.pdf" 1250 0 50 H I L CNN
+F4 "Digital Potentiometer ICs 1024tap 5v 50tp, in MSOP SPI I.C." 1250 -100 50 H I L CNN "Description"
+F5 "1.1" 1250 -200 50 H I L CNN "Height"
+F6 "584-AD5175BRMZ-10" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-AD5175BRMZ-10" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AD5175BRMZ-10" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -500 200 -500 200 100 N
+X VDD 1 0 0 200 R 50 50 0 0 P
+X ADDR 10 1400 0 200 L 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X W 3 0 -200 200 R 50 50 0 0 P
+X VSS 4 0 -300 200 R 50 50 0 0 P
+X EXT_CAP 5 0 -400 200 R 50 50 0 0 P
+X GND 6 1400 -400 200 L 50 50 0 0 P
+X ~RESET 7 1400 -300 200 L 50 50 0 0 P
+X SDA 8 1400 -200 200 L 50 50 0 0 P
+X SCL 9 1400 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# NE555DR
+#
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model JSPHS-661+
+#/1367043/376392/2.47/14/4/Undefined or Miscellaneous
+DEF JSPHS-661+ U 0 30 Y Y 1 F N
+F0 "U" 1150 300 50 H V L CNN
+F1 "JSPHS-661+" 1150 200 50 H V L CNN
+F2 "JSPHS661" 1150 100 50 H I L CNN
+F3 "https://www.minicircuits.com/pdfs/JSPHS-661+.pdf" 1150 0 50 H I L CNN
+F4 "Narrow Band Phase Shifter, 50Ohm, 400 - 660 MHz" 1150 -100 50 H I L CNN "Description"
+F5 "6" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Mini-Circuits" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "JSPHS-661+" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND_1 2 0 -100 200 R 50 50 0 0 P
+X GND_2 3 0 -200 200 R 50 50 0 0 P
+X BIAS_1 4 0 -300 200 R 50 50 0 0 P
+X GND_3 5 0 -400 200 R 50 50 0 0 P
+X BIAS_2 6 0 -500 200 R 50 50 0 0 P
+X OUT 7 0 -600 200 R 50 50 0 0 P
+X GND_4 8 1300 -600 200 L 50 50 0 0 P
+X GND_5 9 1300 -500 200 L 50 50 0 0 P
+X GND_6 10 1300 -400 200 L 50 50 0 0 P
+X GND_7 11 1300 -300 200 L 50 50 0 0 P
+X GND_8 12 1300 -200 200 L 50 50 0 0 P
+X GND_9 13 1300 -100 200 L 50 50 0 0 P
+X GND_10 14 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DAC8571IDGKR
+#/321308/376392/2.48/8/3/Integrated Circuit
+DEF DAC8571IDGKR IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "DAC8571IDGKR" 1150 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/dac8571" 1150 0 50 H I L CNN
+F4 "Low-Power Rail-To-Rail Output 16-Bit I2C Input DAC" 1150 -100 50 H I L CNN "Description"
+F5 "1.1" 1150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DAC8571IDGKR" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-DAC8571IDGKR" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DAC8571IDGKR/?qs=vul0MlC%2Fa1e2vURfBXxWaw%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "DAC8571IDGKR" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/dac8571idgkr/texas-instruments" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VDD 1 0 0 200 R 50 50 0 0 P
+X VREF 2 0 -100 200 R 50 50 0 0 P
+X V(SENSE) 3 0 -200 200 R 50 50 0 0 P
+X VOUT 4 0 -300 200 R 50 50 0 0 P
+X GND 8 1300 0 200 L 50 50 0 0 P
+X SDA 7 1300 -100 200 L 50 50 0 0 P
+X SCL 6 1300 -200 200 L 50 50 0 0 P
+X A0 5 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL072CD
+#/2889/376392/2.48/8/3/Integrated Circuit
+DEF TL072CD IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TL072CD" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tl072.pdf" 950 0 50 H I L CNN
+F4 "Dual Low-Noise JFET-Input General-Purpose Operational Amplifier" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "595-TL072CD" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL072CD?qs=5nGYs9Do7G0niDPig1J2Tw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TL072CD" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1OUT 1 0 0 200 R 50 50 0 0 P
+X 1IN- 2 0 -100 200 R 50 50 0 0 P
+X 1IN+ 3 0 -200 200 R 50 50 0 0 P
+X VCC- 4 0 -300 200 R 50 50 0 0 P
+X VCC+ 8 1100 0 200 L 50 50 0 0 P
+X 2OUT 7 1100 -100 200 L 50 50 0 0 P
+X 2IN- 6 1100 -200 200 L 50 50 0 0 P
+X 2IN+ 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TMK212BC6106KG-T
+#/11693638/376392/2.49/2/3/Capacitor
+DEF TMK212BC6106KG-T C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "TMK212BC6106KG-T" 350 150 50 H V L CNN
+F2 "CAPC2114X145N" 350 50 50 H I L CNN
+F3 "https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=LMK063BBJ474MPLF&fileType=CA" 350 -50 50 H I L CNN
+F4 "Status	Mass Production (Preferred) Capacitance	10 uF +/- 10 % Case Size (EIA/JIS)	0805/2012 Rated Voltage	25 V tan (max)	10 % Temperature Characteristic (EIA)	X6S Operating Temp. Range (EIA)	-55 to +105  High Temperature Loading (% Rated Voltage)	150 % Insulation Resistance (min)	100 MuF Dimension L	2.0 +0.20/-0.00 mm Dimension W	1.25 +0.20/-0.00 mm Dimension T	1.25 +0.20/-0.00 mm Dimension e	0.50 +/-0.25 mm RoHS Compliance (10 subst.)	Yes REACH Compliance (205 subst.)	Yes IEC62474 (Ver. D19" 350 -150 50 H I L CNN "Description"
+F5 "1.45" 350 -250 50 H I L CNN "Height"
+F6 "963-TMK212BC6106KG-T" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/TMK212BC6106KG-T?qs=rI7uf1IzohRW7kV5WJ6mlg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TAIYO YUDEN" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "TMK212BC6106KG-T" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCP4725A2T-E_CH
+#/458959/376392/2.49/6/3/Integrated Circuit
+DEF MCP4725A2T-E_CH IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MCP4725A2T-E_CH" 950 200 50 H V L CNN
+F2 "SOT95P270X145-6N" 950 100 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf" 950 0 50 H I L CNN
+F4 "Microchip MCP4725A2T-E/CH, 12 bit Serial DAC, 3.4Msps, 6-Pin SOT-23" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "579-MCP4725A2T-E/CH" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4725A2T-E-CH?qs=hH%252BOa0VZEiABOw9BMlFjfA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MCP4725A2T-E/CH" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUT 1 0 0 200 R 50 50 0 0 P
+X VSS 2 0 -100 200 R 50 50 0 0 P
+X VDD 3 0 -200 200 R 50 50 0 0 P
+X A0 6 1100 0 200 L 50 50 0 0 P
+X SCL 5 1100 -100 200 L 50 50 0 0 P
+X SDA 4 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ERA-6AED1402V
+#/1222621/376392/2.49/2/5/Resistor
+DEF ERA-6AED1402V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERA-6AED1402V" 550 150 50 H V L CNN
+F2 "RESC2012X60N" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD 0805 14Kohms 25ppm 0.5% AEC-Q200" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "667-ERA-6AED1402V" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-6AED1402V?qs=MNPzkKEzRtS3s9bTI0KGOw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERA-6AED1402V" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LM741CN_NOPB
+#/2275/376392/2.49/8/3/Integrated Circuit
+DEF LM741CN_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 2150 300 50 H V L CNN
+F1 "LM741CN_NOPB" 2150 200 50 H V L CNN
+F2 "DIP794W53P254L959H508Q8N" 2150 100 50 H I L CNN
+F3 "" 2150 0 50 H I L CNN
+F4 "LM741 Operational Amplifier 1MHz DIP8 Texas Instruments LM741CN/NOPB Op Amp, 1MHz, 8-Pin MDIP" 2150 -100 50 H I L CNN "Description"
+F5 "5.08" 2150 -200 50 H I L CNN "Height"
+F6 "926-LM741CN/NOPB" 2150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM741CN-NOPB?qs=QbsRYf82W3Gt6%252BDX6%252BuAjw%3D%3D" 2150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 2150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LM741CN/NOPB" 2150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OFFSET_NULL_1 1 0 0 200 R 50 50 0 0 P
+X INVERTING_INPUT 2 0 -100 200 R 50 50 0 0 P
+X NON_INVERTING_INPUT 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X NC 8 2300 0 200 L 50 50 0 0 N
+X V+ 7 2300 -100 200 L 50 50 0 0 P
+X OUTPUT 6 2300 -200 200 L 50 50 0 0 P
+X OFFSET_NULL_2 5 2300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2100 100 2100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LMC6081IMX_NOPB
+#/746851/376392/2.49/8/3/Integrated Circuit
+DEF LMC6081IMX_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 1850 300 50 H V L CNN
+F1 "LMC6081IMX_NOPB" 1850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1850 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/lmc6081.pdf?ts=1620626007476&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLMC6081IMX%252FNOPB" 1850 0 50 H I L CNN
+F4 "Precision CMOS Single Operational Amplifier" 1850 -100 50 H I L CNN "Description"
+F5 "1.75" 1850 -200 50 H I L CNN "Height"
+F6 "926-LMC6081IMX/NOPB" 1850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMC6081IMX-NOPB/?qs=QbsRYf82W3GIO6MWhnXLLg%3D%3D" 1850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LMC6081IMX/NOPB" 1850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X INVERTING_INPUT 2 0 -100 200 R 50 50 0 0 P
+X NON-INVERTING_INPUT 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X NC_3 8 2000 0 200 L 50 50 0 0 P
+X V+ 7 2000 -100 200 L 50 50 0 0 P
+X OUTPUT 6 2000 -200 200 L 50 50 0 0 P
+X NC_2 5 2000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1800 100 1800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
