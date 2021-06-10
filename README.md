@@ -4,7 +4,7 @@ This repository contains the Huff Research Group's submission to the [2021 APS S
 
 ## Motivation and Application
 
-Radio telemetry and direction-finding methods have enabled researchers, practitioners, and citizen scientists in agriculture and biological sciences for decades. These tools are commonly used in data collection on diverse animal populations, such as tracking migratory behavior and monitoring threatened species. Coalescing this data with geotags allows scientists to infer the health of the environment and habitats where these animals reside. Recently, such techniques have been deployed to track the invasive species, _Vespa mandarinia_ (Asian giant hornet) and _Lycorma delicatula_ (spotted lanternfly), and study their impact on native ecosystems \cite{Kennedy2018,MurderHornetNYT,USDAAPHIS,SLA}. _V. mandarinia_ can rapidly destroy entire honey bee colonies, and \textit{L. delicatula} can cause huge economic damage to farming and lumber industries.
+Radio telemetry and direction-finding methods have enabled researchers, practitioners, and citizen scientists in agriculture and biological sciences for decades. These tools are commonly used in data collection on diverse animal populations, such as tracking migratory behavior and monitoring threatened species. Coalescing this data with geotags allows scientists to infer the health of the environment and habitats where these animals reside. Recently, such techniques have been deployed to track the invasive species, _Vespa mandarinia_ (Asian giant hornet) and _Lycorma delicatula_ (spotted lanternfly), and study their impact on native ecosystems. _V. mandarinia_ can rapidly destroy entire honey bee colonies, and _L. delicatula_ can cause huge economic damage to farming and lumber industries.
 
 The goal of Project Artemis is to design and build an extensible invasive species tracking system that utilizes an antenna array with an SDR to perform real-time DoA. Additionally, we view Artemis as a low-cost approach that lowers-the-barrier-to-entry for educators and citizen scientists to engage in the growing fields of antennas, electromagnetics, signal processing, and arrays.
 
@@ -16,11 +16,11 @@ Above is a top-level diagram of Project Artemis detailing the interconnection be
 
 ![Components Layout](images/components_layed_out.jpg)
  
-This shows the fully-assembled Artemis in both the ULA and UCA configurations. Our GitHub repository contains all of our design files as well as the source code to Artemis, and the end of this report includes the Bill of Materials. The subsections that follow describe in detail the hardware and software components.
+This shows all of the components to Artemis layed out on a table. This GitHub repository contains all of our design files as well as the source code to Artemis, and the end of this report includes the Bill of Materials. The subsections that follow describe in detail the hardware and software components.
 
 ## Artemis Software
 
-Fill in with Artemis usage information.
+The Artemis Software toolkit is a forked version of the KerberosSDR example toolkit, tailored for the purpose of easing usage for end-users.
 
 ## Analog Components
 
